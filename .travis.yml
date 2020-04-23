@@ -34,6 +34,8 @@ script:
  - cd libSGE
  - git checkout 3facdc9
  - sudo make install
+ - cd
+ - cd foottt 
   - cmake ./
   #- make
  #download libSGE
