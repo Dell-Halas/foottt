@@ -38,11 +38,10 @@ script:
   -cd
   
   -cd foottt
-
-
-
-  #download libSGE
-  # git clone https://github.com/flibitijibibo/libSGE
+  - cmake ./
+  - make
+ #download libSGE
+ # git clone https://github.com/flibitijibibo/libSGE
  #cd libSGE
  # git checkout 3facdc9
  # make install
