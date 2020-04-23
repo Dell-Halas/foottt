@@ -30,9 +30,8 @@ install:
 - "[ $CXX = gcc-mingw-w64 ] && export CXX=gcc-mingw-w64 || true"
 #- "[ $CXX = clang++ ] && export CXX=clang++-3.8 || true"
 script:
- - cd 
- - cd build
- -ls
+ - cd
+ - ls
  #- pwd
  
  #- git clone https://github.com/flibitijibibo/libSGE
