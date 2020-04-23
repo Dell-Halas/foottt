@@ -31,8 +31,13 @@ install:
 #- "[ $CXX = clang++ ] && export CXX=clang++-3.8 || true"
 script:
  - pwd
-
-  #- make
+ - git clone https://github.com/flibitijibibo/libSGE
+ - cd libSGE
+ - git checkout 3facdc9
+ - make install
+ - cd
+ - cd build/roberth11/foottt
+ - make
  #download libSGE
  # git clone https://github.com/flibitijibibo/libSGE
  #cd libSGE
