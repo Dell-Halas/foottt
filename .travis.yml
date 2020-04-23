@@ -1,5 +1,4 @@
 sudo: false
-
 language: cpp
   - ci_host=i686-w64-mingw32
   - ci_host=i686-w64-mingw32 ci_buildsys=cmake ci_variant=debug
