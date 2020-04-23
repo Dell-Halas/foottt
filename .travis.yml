@@ -33,7 +33,7 @@ script:
  - cd 
  - cd build
  -ls
- - pwd
+ #- pwd
  
  #- git clone https://github.com/flibitijibibo/libSGE
  #- cd libSGE
