@@ -34,7 +34,7 @@ script:
  - git clone https://github.com/flibitijibibo/libSGE
  - cd libSGE
  - git checkout 3facdc9
- - make install
+ - sudo make install
  - cd
  - cd build/roberth11/foottt
  - cmake ./
