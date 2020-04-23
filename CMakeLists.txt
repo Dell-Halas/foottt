@@ -31,7 +31,7 @@ set(Boost_USE_STATIC_LIBS TRUE)
 #add_definitions(-D_GLIBCXX_USE_CXX11_ABI=0)
 #add_definitions(-DBOOST_ALL_NO_LIB -DBOOST_ALL_DYN_LINK -DBOOST_LOG_DYN_LINK)
 #add_definitions(-DFO_BOOST_STATIC_LINK=TRUE)
-add_definitions(-DWINVER=0x500 -DBOOST_SIGNALS_NO_DEPRECATION_WARNING -DBOOST_DISABLE_ASSERTS -DNDEBUG -mthreads -Wall -Wno-unused-variable -Wno-unused-local-typedefs -Wno-narrowing -fno-strict-aliasing -fsignaling-nans -mtune=generic -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -O2 -s)
+add_definitions(-DWINVER=0x500 -DBOOST_SIGNALS_NO_DEPRECATION_WARNING -DBOOST_DISABLE_ASSERTS -DNDEBUG -pthread -Wall -Wno-unused-variable -Wno-unused-local-typedefs -Wno-narrowing -fno-strict-aliasing -fsignaling-nans -mtune=generic -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free -O2 -s)
 #add_definitions(-DCMAKE_RULE_MESSAGES:BOOL=OFF -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON)
 #SET(CMAKE_EXE_LINKER_FLAGS "-static")
 # Find needed libraries
