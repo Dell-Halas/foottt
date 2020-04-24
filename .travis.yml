@@ -1,5 +1,4 @@
 sudo: false
-so: windows
 language: cpp
   - ci_host=i686-w64-mingw32
   - ci_host=i686-w64-mingw32 ci_buildsys=cmake ci_variant=debug
@@ -31,14 +30,15 @@ install:
 - "[ $CXX = gcc-mingw-w64 ] && export CXX=gcc-mingw-w64 || true"
 #- "[ $CXX = clang++ ] && export CXX=clang++-3.8 || true"
 script:
- - git clone https://github.com/flibitijibibo/libSGE
- - cd libSGE
- - git checkout 3facdc9
- - sudo make install
- - cd
-  - cd build/roberth11/foottt
- - cmake ./
- - make
+- echo $PATH
+# - git clone https://github.com/flibitijibibo/libSGE
+# - cd libSGE
+# - git checkout 3facdc9
+# - sudo make install
+# - cd
+#  - cd build/roberth11/foottt
+# - cmake ./
+# - make
  #download libSGE
  # git clone https://github.com/flibitijibibo/libSGE
  #cd libSGE
