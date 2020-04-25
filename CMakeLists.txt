@@ -60,7 +60,7 @@ include_directories(SYSTEM ${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIRS})
 
 set(SGE_INCLUDE_DIR /usr/include/SDL)
-set(SGE_LIBRARY /usr/i686-w64-mingw32/lib/libSGE.a)
+set(SGE_LIBRARY /usr/lib64/libSGE.a)
 FIND_PACKAGE(SGE REQUIRED)
 include_directories(${SGE_INCLUDE_DIR})
 
