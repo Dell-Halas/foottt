@@ -65,7 +65,7 @@ FIND_PACKAGE(SGE REQUIRED)
 include_directories(${SGE_INCLUDE_DIR})
 
 set(OPENAL_INCLUDE_DIR /usr/include/AL)
-set(OPENAL_LIBRARY /usr/i686-w64-mingw32/libOpenAL32.dll.a)
+set(OPENAL_LIBRARY  /usr/i686-w64-mingw32/lib/libopengl32.a)
 #FIND_PACKAGE(OpenAL REQUIRED)
 include_directories(${OPENAL_INCLUDE_DIR})
 
