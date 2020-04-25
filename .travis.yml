@@ -34,7 +34,7 @@ script:
  - cd libSGE
  - git checkout 3facdc9
  - sudo make install
- - cd /usr/share/openal
+ - cd /usr/share/
  - ls
 #  - cd build/roberth11/foottt
 # - cmake ./
