@@ -60,12 +60,12 @@ include_directories(SYSTEM ${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIRS})
 
 set(SGE_INCLUDE_DIR /usr/include/SDL)
-set(SGE_LIBRARY /usr/i686-w64-mingw32.shared/lib/libSGE.a)
+set(SGE_LIBRARY /usr/i686-w64-mingw32/lib/libSGE.a)
 FIND_PACKAGE(SGE REQUIRED)
 include_directories(${SGE_INCLUDE_DIR})
 
 set(OPENAL_INCLUDE_DIR /usr/include/AL)
-set(OPENAL_LIBRARY /src/libOpenAL32.dll.a)
+set(OPENAL_LIBRARY /usr/i686-w64-mingw32/libOpenAL32.dll.a)
 #FIND_PACKAGE(OpenAL REQUIRED)
 include_directories(${OPENAL_INCLUDE_DIR})
 
