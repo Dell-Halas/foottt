@@ -37,6 +37,7 @@ script:
  - cd build/roberth11/foottt 
  - cmake ./ 
  - make
+ 
  #download libSGE
  # git clone https://github.com/flibitijibibo/libSGE
  #cd libSGE
