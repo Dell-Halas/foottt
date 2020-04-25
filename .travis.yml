@@ -35,7 +35,7 @@ script:
  - cd libSGE
  - git checkout 3facdc9
  - sudo make install
- - cd /usr/lib64/
+ - cd /usr/
  - ls
 #  - cd build/roberth11/foottt
 # - cmake ./
